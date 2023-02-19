@@ -13,7 +13,7 @@
   </div>
 </template>
 
-<style scoped>
+<style lang="scss" scoped>
 .nav-bar {
   position: relative;
   height: calc(4rem + 1rem);
@@ -25,25 +25,27 @@
   margin-right: auto;
   padding: 0 40px;
   transition: 0.6s ease;
-}
 
-.nav-bar .logo {
-  color: var(--first-color);
-  font-size: 1.3em;
-  font-weight: 600;
-}
+  > .logo {
+    color: var(--first-color);
+    font-size: 1.3em;
+    font-weight: 600;
+  }
 
-.nav-items a {
-  color: var(--first-color);
-  font-size: var(--normal-font-size);
-  font-weight: 500;
-}
+  .nav-items {
+    > a {
+      color: var(--first-color);
+      font-size: var(--normal-font-size);
+      font-weight: 500;
+    }
 
-.nav-items a:not(:last-child) {
-  margin-right: 50px;
-}
+    > a:not(:last-child) {
+      margin-right: 50px;
+    }
 
-.nav-items a:hover {
-  color: var(--second-color);
+    > a:hover {
+      color: var(--second-color);
+    }
+  }
 }
 </style>

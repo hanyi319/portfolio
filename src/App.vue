@@ -33,7 +33,7 @@ import Home from "./components/Home.vue";
   <!--=======External scripts=======-->
 </template>
 
-<style scoped>
+<style lang="scss" scoped>
 .flex-center {
   display: flex;
   justify-content: center;
