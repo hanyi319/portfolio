@@ -1,30 +1,49 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
+import Header from "./components/Header.vue";
 </script>
 
 <template>
-  <div>
-    <a href="https://vitejs.dev" target="_blank">
-      <img src="/vite.svg" class="logo" alt="Vite logo" />
-    </a>
-    <a href="https://vuejs.org/" target="_blank">
-      <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
-    </a>
-  </div>
-  <HelloWorld msg="Vite + Vue" />
+  <!--=======Scroll to top button=======-->
+
+  <!--=======Light/Dark theme button=======-->
+
+  <!--=======Header=======-->
+  <Header class="header" />
+
+  <!--=======Home section=======-->
+
+  <!--=======About section=======-->
+
+  <!--=======Skills section=======-->
+
+  <!--=======Services section=======-->
+
+  <!--=======Portfolio section=======-->
+
+  <!--=======Get-in-touct=======-->
+
+  <!--=======Our Clients=======-->
+
+  <!--=======Contact section=======-->
+
+  <!--=======Footer=======-->
+
+  <!--=======External scripts=======-->
 </template>
 
 <style scoped>
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.vue:hover {
-  filter: drop-shadow(0 0 2em #42b883aa);
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99999;
+  width: 100%;
+  backdrop-filter: blur(20px);
+  transition: 0.6s ease;
 }
 </style>
