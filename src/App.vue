@@ -1,5 +1,6 @@
 <script setup>
 import Header from "./components/Header.vue";
+import Home from "./components/Home.vue";
 </script>
 
 <template>
@@ -11,6 +12,7 @@ import Header from "./components/Header.vue";
   <Header class="header" />
 
   <!--=======Home section=======-->
+  <Home class="home flex-center" id="home" />
 
   <!--=======About section=======-->
 
@@ -45,5 +47,15 @@ import Header from "./components/Header.vue";
   width: 100%;
   backdrop-filter: blur(20px);
   transition: 0.6s ease;
+}
+
+.home {
+  position: relative;
+  flex-direction: column;
+  max-width: 1250px;
+  min-height: 100vh;
+  padding: 4rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 </style>
