@@ -9,7 +9,7 @@ import About from "./components/About.vue";
 
   <!--=======Light/Dark theme button=======-->
 
-  <Header class="header" />
+  <Header class="header" id="header" />
   <Home class="home flex-center" id="home" />
   <About class="about section" id="about" />
 
@@ -51,6 +51,12 @@ import About from "./components/About.vue";
   padding: 6rem 0;
   margin-left: auto;
   margin-right: auto;
+}
+
+.sticky {
+  height: calc(2.5rem + 1rem);
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: var(--box-shadow);
 }
 
 .header {
