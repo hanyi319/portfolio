@@ -7,9 +7,9 @@
           <a href="#"><i class="fab fa-twitter"></i></a>
         </div>
         <div class="info">
-          <h2>你好，我是韩毅</h2>
-          <h3>前端开发工程师</h3>
-          <p>致力于帮助你以最直观、最快速的方式学会前端开发，并希望我的个人经历对你有所启发。</p>
+          <h2>你好，我是<span>韩毅</span></h2>
+          <h3>一个练习时长半年的前端新手</h3>
+          <p>略懂编程，喜欢研究前端视觉化与交互动效实现。</p>
           <a href="" class="btn">联系我 <i class="fas fa-arrow-circle-right"></i></a>
         </div>
       </div>
@@ -34,11 +34,12 @@
     > .media-icons {
       display: flex;
       flex-direction: column;
-      margin-right: 40px;
+      margin-left: 50px;
+      margin-right: 50px;
 
       > a {
-        font-size: 1.5em;
         margin: 10px 0;
+        font-size: 1.5em;
         color: var(--second-color);
       }
 
@@ -52,6 +53,10 @@
         font-size: 4em;
         font-weight: 600;
         line-height: 70px;
+
+        > span {
+          color: var(--second-color);
+        }
       }
 
       > h3 {
@@ -62,21 +67,21 @@
       }
 
       > p {
-        color: var(--third-color);
+        max-width: 500px;
         font-size: var(--normal-font-size);
-        max-width: 350px;
+        color: var(--third-color);
       }
 
       > .btn {
-        background: var(--second-color);
-        color: #fff;
+        display: inline-block;
+        padding: 10px 20px;
+        margin-top: 25px;
+        border-radius: 10px;
         font-size: var(--normal-font-size);
         font-weight: 500;
-        display: inline-block;
-        margin-top: 25px;
-        padding: 10px 20px;
         letter-spacing: 1px;
-        border-radius: 10px;
+        color: #fff;
+        background: var(--second-color);
       }
 
       > .btn:hover {
@@ -94,21 +99,20 @@
 
     > img {
       max-width: 300px;
-      max-height: 300px;
       border-radius: 50%;
     }
   }
 }
 
 .scroll-down {
-  color: var(--first-color);
+  margin-top: 100px;
   font-size: var(--normal-font-size);
   font-weight: 500;
-  margin-top: 50px;
+  color: var(--first-color);
 
   > i {
-    color: var(--second-color);
     font-size: 1.2em;
+    color: var(--second-color);
     animation: arrow-down ease 2s infinite;
   }
 }

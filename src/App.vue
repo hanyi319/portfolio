@@ -1,6 +1,7 @@
 <script setup>
 import Header from "./components/Header.vue";
 import Home from "./components/Home.vue";
+import About from "./components/About.vue";
 </script>
 
 <template>
@@ -8,13 +9,9 @@ import Home from "./components/Home.vue";
 
   <!--=======Light/Dark theme button=======-->
 
-  <!--=======Header=======-->
   <Header class="header" />
-
-  <!--=======Home section=======-->
   <Home class="home flex-center" id="home" />
-
-  <!--=======About section=======-->
+  <About class="about section" id="about" />
 
   <!--=======Skills section=======-->
 
@@ -39,11 +36,28 @@ import Home from "./components/Home.vue";
   justify-content: center;
   align-items: center;
 }
+
+.section {
+  position: relative;
+  width: 1150px;
+  padding: 6rem 2rem 2rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sub-section {
+  position: relative;
+  width: 1150px;
+  padding: 6rem 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .header {
+  z-index: 99999;
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 99999;
   width: 100%;
   backdrop-filter: blur(20px);
   transition: 0.6s ease;

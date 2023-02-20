@@ -13,30 +13,30 @@
   </div>
 </template>
 
-<style lang="scss" scoped>
+<style lang="scss">
 .nav-bar {
   position: relative;
-  height: calc(4rem + 1rem);
-  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  height: calc(4rem + 1rem);
+  width: 100%;
+  padding: 0 40px;
   margin-left: auto;
   margin-right: auto;
-  padding: 0 40px;
   transition: 0.6s ease;
 
   > .logo {
-    color: var(--first-color);
     font-size: 1.3em;
     font-weight: 600;
+    color: var(--first-color);
   }
 
   .nav-items {
     > a {
-      color: var(--first-color);
       font-size: var(--normal-font-size);
       font-weight: 500;
+      color: var(--first-color);
     }
 
     > a:not(:last-child) {
