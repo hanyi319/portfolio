@@ -2,6 +2,7 @@
 import Header from "./components/Header.vue";
 import Home from "./components/Home.vue";
 import About from "./components/About.vue";
+import Skills from "./components/Skills.vue";
 </script>
 
 <template>
@@ -12,6 +13,7 @@ import About from "./components/About.vue";
   <Header class="header" id="header" />
   <Home class="home flex-center" id="home" />
   <About class="about section" id="about" />
+  <Skills class="skills section" id="skills" />
 
   <!--=======Skills section=======-->
 

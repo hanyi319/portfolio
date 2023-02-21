@@ -3,13 +3,13 @@
     <div class="home-container">
       <div class="home-content">
         <div class="media-icons">
-          <a href="#"><i class="fab fa-github"></i></a>
-          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="https://github.com/hanyi319"><i class="fa-brands fa-github"></i></a>
+          <a href="https://www.yuque.com/hanyi319/rzcefd"><i class="fa-brands fa-twitter"></i></a>
         </div>
         <div class="info">
           <h2>你好，我是<span>韩毅</span></h2>
-          <h3>一个练习时长半年的前端新手</h3>
-          <p>略懂编程，喜欢研究前端视觉化与交互动效实现。</p>
+          <h3>是你想要的前端小伙伴</h3>
+          <p>爱好编程和艺术，喜欢研究前端视觉化与交互动效实现。</p>
           <a href="" class="btn">联系我 <i class="fas fa-arrow-circle-right"></i></a>
         </div>
       </div>
